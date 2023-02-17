@@ -15,13 +15,14 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  line-height: 20px;
+  width: 1440px;
+  margin: auto;
 }
 
 .header {
   background: rgba(47, 128, 237, 0.1);
-  width: 1440px;
   height: 718px;
-  margin: auto;
   color: #FFFFFF;
 }
 
@@ -103,7 +104,6 @@ a {
 
 .main-screen__review-label {
   margin-top: 44px;
-  line-height: 21px;
 }
 
 .main-screen__review-mark {
@@ -112,24 +112,17 @@ a {
   line-height: 52px;
 }
 
-.main-screen__review-name {
-  line-height: 20px;
-}
-
 .main-screen__review-company {
-  line-height: 20px;
   font-weight: bold;
 }
 
 .main-screen__review-full {
   font-size: 10px;
-  line-height: 20px;
   margin-top: 10px;
 }
 
 .main-screen__promotion-place {
   font-size: 16px;
-  line-height: 20px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
@@ -166,4 +159,92 @@ a {
   line-height: 17px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.second-screen {
+  height: 712px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+}
+
+.second-screen__statement {
+  width: 506px;
+  height: 187px;
+  margin-top: 220px;
+  margin-left: 130px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.second-screen__statistic {
+  margin-top: 80px;
+  margin-right: 130px;
+  display: grid;
+  grid-template-columns: 313px 313px;
+  grid-column-gap: 33px;
+  grid-row-gap: 60px;
+}
+
+.second-screen__statistic-item {
+  height: 221px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(47, 55, 237, 0.1);
+  border-radius: 10px;
+}
+
+.second-screen__statistic-number {
+  margin-top: 35px;
+  margin-left: 54px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #2F80ED;
+}
+
+.second-screen__statistic-description {
+  margin-left: 54px;
+  margin-top: 15px;
+  width: 231px;
+  color: #636363;
+}
+
+.third-screen {
+  height: 565px;
+  display: grid;
+  justify-items: center;
+  background: rgba(47, 128, 237, 0.05);
+}
+
+.third-screen__title {
+  margin-top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.third-screen__target {
+  margin-left: 240px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.third-screen__target-item {
+  width: 224px;
+  height: 200px;
+  margin-right: 180px;
+}
+
+.third-screen__target-item-name {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #2F80ED;
+}
+
+.third-screen_target-item-description {
+  padding-top: 10px;
+  color: #636363;
 }/*# sourceMappingURL=styles.css.map */
